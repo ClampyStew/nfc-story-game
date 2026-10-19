@@ -296,4 +296,4 @@ These need the same AWS credentials in your shell environment.
 
 ## License
 
-Add a license of your choice (for example MIT) as `LICENSE`. Provided without warranty of any kind.
+Codebase provided under the MIT License. See LICENSE for more info.
