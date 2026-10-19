@@ -87,7 +87,7 @@ nfc-story-game/
 ## Game Content
 
 **Characters** (the motive is what Nova Lite builds the scene around)
-
+(byo your images)
 | ID | Name | Motive |
 |---|---|---|
 | `naomi` | Naomi | Disproving danger, staying safe |
@@ -149,7 +149,7 @@ export default {
 
 ---
 
-## NFC Tags
+## NFC Tags (BYO)
 
 Write each tag as a **URL record** pointing at the scan page (any NFC writer app works, such as NFC Tools or NXP TagWriter):
 
