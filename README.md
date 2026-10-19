@@ -1,7 +1,8 @@
 # 🎃 The Butcher's Maze: NFC Story Game
 
 An interactive horror story generator for live events. Players enter their name, then tap their phone on NFC tags to pick a **character**, a **location**, and a **storyline phase**. The app turns those choices into a cinematic prompt with **Amazon Nova Lite** and renders a 6-second video with **Amazon Nova Reel**, with everything saved per player in S3.
-
+> Note: This is hosted before React2Shell was uncovered. If you wish to host this, please double-check whether the CVE needs to be patched!
+``` See [CVE-2025-55182](https://nvd.nist.gov/vuln/detail/cve-2025-55182) / [CVE-2025-66478](https://nvd.nist.gov/vuln/detail/cve-2025-66478)```
 ---
 
 ## How It Works
@@ -213,7 +214,7 @@ Replace `<ACCOUNT_ID>` and tighten the wildcards for production.
 ---
 
 ## Deployment
-
+> Do not open issues regarding other hosting methods other than Vercel!
 ### Option A: Vercel (used at the event)
 
 1. Push the repo to GitHub and import it at vercel.com.
